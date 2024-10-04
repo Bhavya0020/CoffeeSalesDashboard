@@ -1,0 +1,23 @@
+div.block-container {
+  padding-top : 1rem;
+}
+
+.main {
+    background-color: bisque;
+}
+
+div[data-testid="column"] {
+    background-color: burlywood;
+}
+
+div[data-testid="stMetricValue"] {
+    color: black;
+    font-family: "Courier New", monospace;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Hide Streamlit Branding */
+MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
