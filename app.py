@@ -64,7 +64,7 @@ st.title(PAGE_TITLE + " " + PAGE_ICON)
 
 @st.cache_data()
 def load_data():
-    data = pd.read_csv('/kaggle/input/coffee-sales/index.csv')
+    data = pd.read_csv('index.csv')
     return data
 
 data = load_data()
